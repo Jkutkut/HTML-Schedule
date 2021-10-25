@@ -1,7 +1,31 @@
+/* Containers */
+.hori {
+    display: flex;
+    flex-direction: row;
+}
+
+.verti {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    margin: 50px;
+    margin-top: 0px;
+}
+
+/* Elements */
+
+h1 {
+    width: 600px;
+
+    text-align: center;
+}
+
 img {
     width: 200px;
 }
 
-table {
-    background: red;
+img:hover {
+    transform: scale(1.1);
 }
